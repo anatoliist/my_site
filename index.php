@@ -1,3 +1,4 @@
+всем пипец пидары
 <!doctype html>
 <html>
 	<head>
@@ -8,7 +9,7 @@
 		<title>Сайт об авто</title>
 	</head>
 	<body>
-		<div class="header">
+		<div class="header man">
 			<div class="inside">
 				<div class="top_menu">
 					<div class="packaging">
