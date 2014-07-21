@@ -8,7 +8,7 @@
 		<title>Сайт об авто 2</title>
 	</head>
 	<body>
-		<div class="header man">
+		<div class="header">
 			<div class="inside">
 				<div class="top_menu">
 					<div class="packaging">
