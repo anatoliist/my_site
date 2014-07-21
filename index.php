@@ -1,4 +1,3 @@
-всем пипец пидары
 <!doctype html>
 <html>
 	<head>
@@ -6,7 +5,7 @@
 		<link rel="stylesheet" href="style.css" media="all" />
 		<script type="text/javascript" src="jquery.min.js"></script>
 		<script src="/js.js"></script>
-		<title>Сайт об авто</title>
+		<title>Сайт об авто 2</title>
 	</head>
 	<body>
 		<div class="header man">
