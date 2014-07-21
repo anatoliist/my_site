@@ -5,10 +5,10 @@
 		<link rel="stylesheet" href="style.css" media="all" />
 		<script type="text/javascript" src="jquery.min.js"></script>
 		<script src="/js.js"></script>
-		<title>Сайт об авто 1</title>
+		<title>Сайт об авто 2</title>
 	</head>
 	<body>
-		<div class="header">
+		<div class="header man">
 			<div class="inside">
 				<div class="top_menu">
 					<div class="packaging">
