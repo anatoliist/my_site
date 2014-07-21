@@ -1,0 +1,479 @@
+/*
+ * You theme
+ * Version 1.0.0
+ * Author Moskalev Anatolii
+ */
+@import url("reset.css");
+@font-face {
+	font-family:PT Sans;
+	src:url(font/PT_Sans-Web-Regular.ttf);
+}
+@font-face {
+	font-family:Lobster;
+	src:url(font/Lobster.ttf);
+}
+/*General styles*/
+html{
+    
+	height: 100%;
+}
+body{
+	font: 12px Arial;
+	color: #000;
+	min-height: 100%;
+	background: #dbdbdb;
+}
+p{
+	font: 12px Arial;
+	color: #000;
+}
+h2{
+	font: 36px Lobster;
+	color: #707070;
+}
+.clear{
+	clear: both;
+}
+/*.header*/
+.header{
+	float: left;
+	width: 100%;
+	height: 587px;
+	background: url(i/header_background.jpg) no-repeat 50% 0;
+	margin: 0 0 -111px 0;
+	*position: relative;
+	z-index: 100;
+}
+.inside{
+	max-width: 1400px;
+	min-width:  980px;
+	margin: 0 auto;
+	position: relative;
+}
+.header .inside{
+	height: 587px;
+}
+.top_menu{
+	float: right;
+	width: 708px;
+	height: 44px;
+	background: url(i/header_topmenu_background.png) no-repeat;
+	overflow: hidden;
+}
+.top_menu .packaging{
+	height: 44px;
+	margin: 0 0 0 65px;
+	background: url(i/header_topmenu_packaging_background.png) repeat-x ;
+	overflow: hidden;
+}
+.top_menu .menu_list{
+	margin: 7px 0 0 31px;
+}
+.menu_list li{
+	border-bottom: 1px solid #ecebeb;
+	float: left;
+}
+.menu_list li.first a{
+	margin: 0;	
+	*margin:  0 0 0 1px;
+}
+.menu_list li a{
+	margin: 0 0 0 50px;
+	font: 18px Lobster;
+	color: #fff;
+	text-decoration: none;
+}
+.header .about{
+	clear: both;
+	width: 189px;
+	height: 190px;
+	float: left;
+	margin: 8px 0 0 13.5%;
+	*margin: 54px 0 0 13.5%;
+	text-align: center;
+	background: url(i/header_about_background.png);
+}
+.about h4{
+	clear: both;
+	font: 14px Lobster;
+	color: #e4e4e4;
+	margin: 7px 0 0 0;
+}
+.about img.im{
+	display: block;
+	margin: 5px auto -17px;
+}
+.about div{
+	text-align: left;
+}
+.about span.desc{
+	font: 12px Arial;
+	color: #e4e4e4;
+	margin: 0 0 0 11px;
+}
+.acii_list{
+	position: absolute;
+	right: 3%;
+	bottom: 89px;
+	width: 36%;
+	height: 77%;
+	text-align: center;
+	overflow: hidden;
+}
+.acii_list img.background_{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+}
+.acii_list div{
+	width: 100%;
+	position: absolute;
+	bottom: 29%;
+	*bottom: 22%;
+	left: 0;
+	z-index: 100;
+}
+@media all and (max-width: 1270px){
+	.acii_list div{
+		bottom: 23%;
+	}
+}
+@media \0screen {  
+	.acii_list div{
+		bottom: 22%;
+	}
+}
+@media all and (max-width: 1082px){
+	.acii_list div{
+		bottom: 20%;
+	}
+}
+.acii_list a.rhead{
+	display: block;
+	margin: 8.5% 0 5% 0;
+	font: 30px Lobster;
+	color: #fff;
+}
+.acii_list a.rhead:hover{
+	text-decoration: none;
+}
+.acii_list a.mesto{
+	display: block;
+	width: 92%;
+	height: 14%;
+	background: url(i/header_aciilist_img2.png) repeat-x bottom;
+	margin: 0 0 2.5% 4%;
+	*margin: 0 0 2.5% 1%;
+}
+@media \0screen {  
+	.acii_list a.mesto{
+		margin: 0 0 2% 4%;		
+	}
+}
+.acii_list a.mesto img{
+	width: 100%;
+}
+@media all and (max-width: 1400px){
+	.acii_list a.mesto{
+		width: 92%;
+		margin: 0 0 2% 4%;
+	}
+}
+.header .logo{
+	position: absolute;
+	bottom: -53px;
+	*bottom: -19px;
+	left: 0.5%;
+	clear: both;
+	float: left;
+	width: 53%;
+}
+@media all and (max-width: 1270px){
+	.header .logo{
+		bottom: -38px;
+	}	
+}
+@media all and (max-width: 1173px){
+	.header .logo{
+		bottom: -31px;
+	}
+}
+@media all and (max-width: 1081px){
+	.header .logo{
+		bottom: -20px;
+	}
+}
+@media \0screen { 
+	.header .logo{
+		bottom: -19px;
+	}
+}
+.header .logo img{
+	width: 100%;
+}
+/*.container*/
+.container{
+	clear: both;
+	background: url(i/container_background.jpg) repeat-y 50% 0;
+	overflow: hidden;
+	*position: relative;
+	z-index: 10;
+}
+/*.content*/
+.container .content{
+	float: left;
+	width: 68.5%;
+	margin: 104px 0 0 0;
+}
+.content img.head{
+	float: left;
+	display: block;
+	margin: 0 22px 0 10px;
+}
+.content h2{
+	margin: 54px 0 56px 295px;
+	text-shadow: 0 5px 0 #fff;
+	word-spacing: 8px;
+}
+.content .post{
+	position: relative;
+	width: 67.5%;
+	margin: 0 0 10px 18%;
+	padding: 0 4% 0 0;
+	background: url(i/content_post_line_left.jpg) no-repeat top left;
+	clear: both;
+}
+.content .post a.name{
+	display: block;
+	text-decoration: none;
+	font: 14px Arial;
+	color: #a3a3a3;
+	margin: 0 0 6px 13px;
+	text-shadow: 0 3 0 #000;
+
+}
+.content .post a.name:hover{
+	text-decoration: underline;
+}
+.content .post img.prev{
+	border: 2px solid #fff;
+}
+.content .post .img_shadow{
+	float: left;
+	width: 148px;
+	margin: 0 12px 0 12px;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 5px solid #cccccc;
+}
+.content .post p{
+	font: 12px Arial;
+	color: #575757;
+	margin: 0 5px 0 173px;
+}
+.content .post a.here{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 30px;
+	height: 158px;
+	background: url(i/content_post_line_right.jpg) no-repeat;
+}
+.content .post .info{
+	clear: left;
+	display: block;
+	margin: 0 0 0 13px;
+	font: 12px Arial;
+	color: #acacac;
+}
+.content .social{
+	width: 79%;
+	height: 28px;
+	margin: 22px 0 8px 10%;
+}
+.content .social img{
+	width: 100%;
+}
+/*.siderbar*/
+.container .siderbar{
+	float: right;
+	width: 30%;
+	margin: 79px 10px 0 0;
+}
+.siderbar .cat{
+	overflow: hidden;
+}
+.siderbar .prev{
+	display: block;
+	float: left;
+}
+.siderbar .date{
+	margin: 23px 0 8px 121px;
+}
+.siderbar h3{
+	font: 30px Lobster;
+	*font: 20px Arial;
+	color: #515151;
+	text-shadow: 0 4px 1px #fff;
+}
+.siderbar .list li a{
+	font: 14px Arial;
+	color: #515151;
+	text-decoration: none;
+	text-shadow: 0 3px 1px #fff;
+	line-height: 24px;
+}
+.siderbar .list li{
+	font: 14px Arial;	
+}
+.siderbar .video_top{
+	display: block;
+	width: 189px;
+	margin: 15px 0 0 20px;
+	border-left: 1px solid #b2dbd7;
+	border-right: 1px solid #b2dbd7;
+	border-bottom: 5px solid #00a091;
+}
+.siderbar .video_top img{
+	border: 3px solid #fff;
+}
+.siderbar .video_link{
+	display: block;
+	font: 14px Lobster;
+	color: #009f90;
+	margin: -11px 0 0 20px;
+}
+@media all and (max-width: 1170px){
+	.siderbar{
+		position: relative;
+		right: 10px;
+	}
+	.content h2{
+		margin: 30px 0 40px 295px;
+	}
+}
+/*.footer*/
+.footer{
+	width: 100%;
+	height: 321px;
+	background: url(i/footer_background.jpg) no-repeat 50% 0;
+	overflow: hidden;
+}
+.footer .inside{
+	overflow: hidden;
+}
+.footer .follow{
+	width: 190px;
+	margin: 31px 0 0 20.5%;
+	*margin: 31px 0 0 6.5%;
+	position: relative;	
+	z-index: 1000;
+}
+.follow h4{
+	font: 20px Arial;
+	color: #e4e4e4;
+	margin: 0 0 20px 0;
+}
+.follow .follow_list{
+	margin: 0 0 0 22px;
+}
+.follow_list li{
+	height: 40px;
+	line-height: 40px;
+}
+.follow_list li span{
+	font: 16px Arial;
+	color: #e4e4e4;
+}
+.follow_list li img{
+	margin: 0 29px 0 0;
+	vertical-align: middle;
+}
+.follow_list a{
+	color: #e4e4e4;
+	text-decoration: none;	
+}
+.follow_list a:hover{
+	text-decoration: underline;
+}
+.footer .follow, .footer .contact, .footer .stat , .footer .copy{
+	float: left;
+}
+.footer .contact{
+	position: relative;
+	width: 300px;
+	height: 178px;
+	margin: 82px 0 0 5%;
+	background: url(i/footer_contact_background.jpg) right;
+	text-align: right;
+	z-index: 100;
+}
+.footer .contact h4, .footer .stat h4{
+	margin: 9px 13px 10px 0;
+	font: 24px Lobster;
+	color: #fff;
+	text-shadow: 0 3px 1px #767676;
+}
+.footer .contact p{
+	margin: 0 10px 0 0;
+	font: 12px Arial;
+	line-height: 18px;
+	color: #fff;
+	text-shadow: 0 2px 1px #767676;
+}
+.footer .stat{
+	position: relative;
+	width: 300px;
+	height: 178px;
+	margin: 82px 0 0 1.5%;	
+	text-align: right;	
+	background: url(i/footer_contact_background.jpg) right;	
+	z-index: 10;
+}
+.footer .stat img{
+	margin: 12px 43px 0 0;
+}
+.footer .copy{
+	display: block;
+	width: 155px;
+	height: 106px;
+	margin: 105px 0 0 3%;
+	background: url(i/footer_copy_background.jpg);
+}
+@media all and (max-width: 1408px){
+	.footer .follow{	
+		margin: 31px 0 0 12.5%;
+	}
+	.footer .contact, .footer .stat{
+		margin: 82px 0 0 0px;
+	}
+}
+:root @media all and (max-width: 1408px){
+	.footer .follow{	
+		margin: 31px 0 0 12.5%;
+	}
+	.footer .contact, .footer .stat{
+		margin: 82px 0 0 0px;
+	}
+}
+@media all and (max-width: 1160px){
+	.footer .follow{	
+		margin: 31px 0 0 6.5%;
+	}
+	.footer .contact, .footer .stat{
+		margin: 82px 0 0 -37px;
+	}
+}
+@media \0screen {  
+	.footer .follow{	
+		margin: 31px 0 0 6.5%;
+	}
+	.footer .contact, .footer .stat{
+		margin: 82px 0 0 -37px;
+	}
+}
+.footer .contact, .footer .stat{
+	*margin: 82px 0 0 -37px;
+}
